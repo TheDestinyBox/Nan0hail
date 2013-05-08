@@ -98,12 +98,6 @@
     <Compile Include="Backup.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Builder.Designer.vb">
-      <DependentUpon>Builder.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Builder.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Edit Mode Advanced.Designer.vb">
       <DependentUpon>Edit Mode Advanced.vb</DependentUpon>
     </Compile>
@@ -132,31 +126,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form4.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form5.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="modIPSW.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -219,26 +188,11 @@
     <EmbeddedResource Include="Backup.resx">
       <DependentUpon>Backup.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Builder.resx">
-      <DependentUpon>Builder.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Edit Mode Advanced.resx">
       <DependentUpon>Edit Mode Advanced.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LocateDevice.resx">
       <DependentUpon>LocateDevice.vb</DependentUpon>

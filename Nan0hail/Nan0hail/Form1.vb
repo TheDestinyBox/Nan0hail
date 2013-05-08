@@ -16,10 +16,8 @@ Public Class MainMenu
     End Function
 
 
-    Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
-        'Form2.ipswhash = ""
-        Verify.Show()
-        Verify.Label1.Visible = False
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+       
 
     End Sub
 
@@ -57,7 +55,7 @@ Public Class MainMenu
         Me.Close()
     End Sub
 
-    Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 

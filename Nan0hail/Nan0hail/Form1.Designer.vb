@@ -25,13 +25,8 @@ Partial Class MainMenu
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -53,26 +48,6 @@ Partial Class MainMenu
         Me.Button2.Text = "Edit Mode"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(83, 279)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(119, 55)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Manage Music"
-        Me.Button4.UseVisualStyleBackColor = True
-        Me.Button4.Visible = False
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(256, 279)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(119, 55)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Manage Photos"
-        Me.Button5.UseVisualStyleBackColor = True
-        Me.Button5.Visible = False
-        '
         'Button6
         '
         Me.Button6.Location = New System.Drawing.Point(255, 75)
@@ -90,30 +65,6 @@ Partial Class MainMenu
         Me.Button7.TabIndex = 6
         Me.Button7.Text = "Nano Revive"
         Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(83, 340)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(119, 55)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "Options"
-        Me.Button8.UseVisualStyleBackColor = True
-        Me.Button8.Visible = False
-        '
-        'Button9
-        '
-        Me.Button9.Location = New System.Drawing.Point(256, 340)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(119, 55)
-        Me.Button9.TabIndex = 8
-        Me.Button9.Text = "CF"
-        Me.Button9.UseVisualStyleBackColor = True
-        Me.Button9.Visible = False
-        '
-        'OpenFileDialog1
-        '
-        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
         'Button10
         '
@@ -222,12 +173,8 @@ Partial Class MainMenu
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -240,13 +187,8 @@ Partial Class MainMenu
 
     End Sub
     Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
     Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
